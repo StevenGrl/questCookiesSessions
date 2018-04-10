@@ -1,4 +1,7 @@
-<?php require 'inc/head.php'; ?>
+<?php
+require 'session.php';
+require 'inc/head.php';
+?>
 <section class="cookies container-fluid">
     <div class="row">
       TODO : Display shopping cart items from $_COOKIES here.
