@@ -1,6 +1,8 @@
 <?php
 require 'session.php';
 require 'inc/head.php';
+
+$_SESSION['page'] = 'index';
 ?>
 <section class="cookies container-fluid">
   <div class="row">

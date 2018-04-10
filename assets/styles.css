@@ -7,6 +7,10 @@ strong {
   font-family: 'Kaushan Script', cursive;
 }
 
+h1 {
+    text-align: center;
+}
+
 .navbar-brand{
     padding: 5px 15px;
 }

@@ -41,7 +41,7 @@
                   <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span>
                   Cart
                     <?php if(isset($_COOKIE['nbCarts'])):?>
-                        <span class="badge"><?= $_COOKIE['nbCarts'] + 1 ?></span>
+                        <span class="badge"><?= $_COOKIE['nbCarts'] ?></span>
                     <?php endif ?>
                 </a>
             </li>
