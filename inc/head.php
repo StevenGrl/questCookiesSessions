@@ -40,6 +40,9 @@
                 <a href="/cart.php" class="btn btn-warning navbar-btn">
                   <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span>
                   Cart
+                    <?php if(isset($_COOKIE['nbCarts'])):?>
+                        <span class="badge"><?= $_COOKIE['nbCarts'] + 1 ?></span>
+                    <?php endif ?>
                 </a>
             </li>
             <?php if (!empty($_SESSION['log'])): ?>
