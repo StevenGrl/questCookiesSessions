@@ -7,7 +7,7 @@
         <strong> Sign in to continue</strong>
       </div>
       <div class="panel-body">
-        <form role="form" action="#" method="POST">
+        <form role="form" action="testLogin.php" method="post">
           <fieldset>
             <div class="row">
               <div class="center-block">
@@ -16,7 +16,7 @@
               </div>
             </div>
             <div class="row">
-              <div class="col-sm-12 col-md-10  col-md-offset-1 ">
+              <div class="col-sm-12 col-md-10  col-md-offset-1">
                 <div class="form-group">
                   <div class="input-group">
                     <span class="input-group-addon">
@@ -36,7 +36,7 @@
       <div class="panel-footer ">
         Don't have an account ? <a href="#" onClick="">Too bad !</a>
       </div>
-            </div>
+    </div>
   </div>
 </div>
 </div>
