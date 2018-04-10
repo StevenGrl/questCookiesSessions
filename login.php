@@ -1,6 +1,5 @@
 <?php
 session_start();
-session_destroy();
 require 'inc/head.php';
 ?>
 <div class="container" style="margin-top:40px">

@@ -54,6 +54,26 @@ section.cookies{
 	border-radius: 50%;
 }
 
+.btn-danger {
+    margin-left: 3px;
+}
+
+.navbar-default .navbar-nav > li > .btn-danger:focus,
+.navbar-default .navbar-nav > li > .btn-danger:hover{
+    background-color: red;
+    margin-left: 3px;
+}
+
+.navbar-default .navbar-nav > li > .btn-warning:focus,
+.navbar-default .navbar-nav > li > .btn-warning:hover{
+    background-color: orange;
+    margin-left: 3px;
+}
+
+.btn-danger span {
+    color: white;
+}
+
 @media screen and ( min-width:768px ){
 
   body {
